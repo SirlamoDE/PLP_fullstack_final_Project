@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9"
+  },
+  "name": "plp_fullstack_final_project",
+  "version": "1.0.0",
+  "description": "Plp-fullstack-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirlamoDE/PLP_fullstack_final_Project.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Nodejs/Expressjs",
+    "HTML",
+    "CSS",
+    "andReact"
+  ],
+  "author": "Meshach O.A",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SirlamoDE/PLP_fullstack_final_Project/issues"
+  },
+  "homepage": "https://github.com/SirlamoDE/PLP_fullstack_final_Project#readme"
+}

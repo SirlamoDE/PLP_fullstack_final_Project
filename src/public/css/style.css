@@ -1,0 +1,229 @@
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  /* background: linear-gradient(135deg, #74b9ff, #6baddf); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2d3436;
+} */
+
+/* .registration-page{
+   
+    
+}    */
+
+
+/* Welcome Message */
+#welcome{
+  font-size: 30px;
+  margin-bottom: 40px;
+  color:#45a049;
+}
+
+
+    
+  
+  /* Form Container */
+  #registration-form {
+    background: #fff;
+    color: #333;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Form Title */
+  #registration-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #4caf50;
+  }
+  
+  /* Input Fields */
+  #registration-form input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  #registration-form input:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  /* Submit Button */
+  #registration-form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  #registration-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #registration-form {
+      padding: 15px 20px;
+    }
+  
+    #registration-form h2 {
+      font-size: 20px;
+    }
+  
+    #registration-form input,
+    #registration-form button {
+      font-size: 14px;
+    }
+  }
+  
+
+
+
+
+
+/* success.html stylesheet */
+.page-success{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+
+    .success-container {
+        text-align: center;
+        padding: 20px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        color: #4caf50;
+        /* font-size: 24px; */
+    }
+
+    a {
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #4caf50;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+        background-color: #45a049;
+    }
+
+}
+  
+  /* Login page stylesheet */
+  .login-container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+  }
+
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dfe6e9;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+
+  .input-group input:focus {
+    border-color: #0984e3;
+    box-shadow: 0 0 5px rgba(9, 132, 227, 0.5);
+    outline: none;
+  }
+
+  button[type="submit"] {
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background: #0984e3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  button[type="submit"]:hover {
+    background: #74b9ff;
+  }
+
+  .redirect {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .redirect a {
+    color: #0984e3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .redirect a:hover {
+    text-decoration: underline;
+  }
+
+  
+ 
+  
+ 
+  
+  
+  

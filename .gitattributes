@@ -1,0 +1,5 @@
+# Set LF as the default line ending for all files
+* text=auto eol=lf
+
+# Explicitly set JSON files to use LF
+*.json text eol=lf
