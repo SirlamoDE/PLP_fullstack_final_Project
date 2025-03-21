@@ -14,3 +14,9 @@ logs/
 # Debugging files
 npm-debug.log*
 
+# Ignore specific signup files
+src/views/signup.html
+src/public/css/signup.css
+
+
+
