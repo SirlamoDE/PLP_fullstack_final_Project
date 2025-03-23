@@ -44,11 +44,11 @@
     justify-content: space-between;
     padding: 0.5rem 5%;
     /* background-color: white; */
-    background-color:var(--teal-color);
-    /* background-color:var(--backbrown); */
+    /* background-color:var(--teal-color); */
+    background-color:var(--backbrown);
     box-shadow: var(--shadow);
     position: sticky;
-    top: 0;
+    top:0;
     z-index: 100;
     
   }
@@ -78,43 +78,35 @@
     width: 100%;
   }
   
-
-  .sign-in-button {
-    background-color: transparent;
-    color: var(--main-green);
-    border: 2px solid var(--main-green);
-    padding: 0.5rem 1.25rem;
-    border-radius: var(--radius);
-    cursor: pointer;
-    font-weight: 500;
-    transition: var(--transition);
-  }
   
-  .sign-in-button:hover {
-    background-color: var(--light-green);
-    color: var(--dark-green);
-  }
-  
-  .hero-section {
+  #learner {
+    /* background-color: #6E6E73; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 3rem 5%;
-    padding-left:8rem;
-    gap: 4rem;
-    color: var(--text-green);    
+    padding-left:5rem;
+    gap: 3rem;
+    color: var(--text-green); 
+    margin-bottom: 1px;
   }
 
 
   
  .hero-content{
     flex: 1;
-    max-width: 600px;
-    height:auto;
+    width: 650px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ 
     
   
     h1{
-        color:var(--deep-blue);
+        /* color:var(--deep-blue); */
         font-size: 3.3rem;
         font-weight: 700;
         margin-bottom:0;
@@ -122,8 +114,7 @@
     }
 
     h2 {
-        /* color:black; */
-        color:#9D6E33
+        color:#9D6E33;
     }
 
     span {
@@ -133,66 +124,67 @@
         color:rgb(0, 0,255);
     }
 
-    .cta-button{
-        background-color: var(--main-green);
-        color: var(--text-white);
-        border: 2px solid var(--dark-green);
-        padding: 0.5rem 1.25rem;
-        border-radius: var(--radius);
-        cursor: pointer;
-        font-weight: 500;
-        transition: var(--transition);
-        
-
-        &:hover {
-            background-color: var(--light-green);
-            color: var(--dark-green);
-        }
-
-    }
 
  }
 
+ .cta-button {
+    
+    background-color: var(--main-green);
+    color: var(--text-white);
+    border: 2px solid var(--dark-green);
+    padding: 0.5rem 1.25rem;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-weight: 500;
+    transition: var(--transition);
+
+    &:hover {
+        background-color: var(--light-green);
+        color: var(--dark-green);
+    }
+
+}
+
 
   .hero-section__texts {
-    flex: 1;
+    flex: 2;
     max-width: 50rem;
+   
 
     .cta-button{
         background-color: var(--light-gray);
         color: var(--dark-green);
-        border: 2px solid var(--dark-green);
-        padding: 0.5rem 1.25rem;
-        border-radius: var(--radius);
-        cursor: pointer;
-        font-weight: 500;
-        transition: var(--transition);
-        margin-bottom: 1rem;
-    }
+        &:hover {
+            background-color: var(--light-green);
+            color: var(--dark-green);
+        } 
+
+    } 
   }
 
-
-  
   .hero-section__texts h1 {
     font-size: 3.9rem;
-    font-weight: 700;
+    font-weight: 300;
     margin-bottom: 1.5rem;
-    line-height: 1.2;
-    color: var(--text-dark);
+    line-height: 1.0;
+    color:var(--text-white);
+    /* color:black; */
    
-
-
     span {
+        font-family: Poppins, "Helvetica Neue";
         opacity: 0.9;
-        font-weight: 800;
-        color:#2c3e50
+        font-size:4.2rem;
+        font-weight:700;
+        color:white;
+        /* color:#2c3e50; */
       }
   }
   
   .hero-section__texts p {
-    color: var(--text-dark);
+    /* color: var(--text-dark); */
+    color: white;
     margin-bottom: 2rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   
   .hero-section__buttons {
@@ -200,37 +192,12 @@
     gap: 1rem;
   }
   
- 
-  
-
-  #mentor{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width:100vw;
-    height: 100vh;
-    background-image: url("https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405379.jpg?uid=R30727684&ga=GA1.1.883849888.1736524172&semt=ais_hybrid");
-     /* background-color: rgb(176, 231, 242); */
-     background-color: var(--teal-color);
-     background-position: center;
-     background-repeat: no-repeat;
-    
-    /* padding: 0.875rem 1.75rem; */
-    border-radius: var(--radius);
-    font-weight: 500;
-    transition: var(--transition);
-    background-blend-mode: overlay;
-    padding: 4rem 4%;
-    color: white;
-    overflow: hidden;
-    background-size: cover;
-  }
-
 
   .hero-image {
     flex: 1;
     position: relative;
     height: 80%;
+    padding: 2rem 0;
   }
 
 
@@ -239,7 +206,7 @@
         font-weight: 700;
         margin-bottom: 1.5rem;
         line-height: 1.2;
-        color: white;
+        /* color: white; */
     }
 
   
@@ -252,14 +219,7 @@
   }
   
 
-  .hero2-container {
-  
-    max-width: 800px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 3;
-  }
-  
+
   .hero-text {
     text-align: center;
   }
@@ -299,9 +259,78 @@
  a {
     text-decoration: none;
     margin: 2rem 0;  
+    font-size: larger;
+    font-weight: 600;
   }
   
-  .hero-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  #mentor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/people-practicing-social-integration-workspace_23-2149405379.jpg?uid=R30727684&ga=GA1.1.883849888.1736524172&semt=ais_hybrid");
+    filter:brightness(95%);
+    background-color: #9D6E33;
+    /* background-color: rgb(193, 202, 91); */
+    /* background-color: var(--teal-color); */
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: 500;
+    transition: var(--transition);
+    background-blend-mode: overlay;
+    padding: 4rem 4%;
+    overflow: hidden;
+    background-size: cover; 
   }
+
+
+  /* About section styling starts from here */
+
+  .About-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+    background: url('https://source.unsplash.com/1600x900/?technology,learning') no-repeat center center/cover;
+}
+
+/* Dark Overlay */
+.About-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Adjust opacity for better readability */
+    z-index: 1;
+}
+
+.About-section h2,
+.About-section p {
+    position: relative;
+    z-index: 2;
+}
+
+.About-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.About-section p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    line-height: 1.6;
+    background: rgba(255, 255, 255, 0.1); /* Light transparent background */
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}

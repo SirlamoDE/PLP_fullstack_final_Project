@@ -21,17 +21,14 @@ body {
   color: #2d3436;
 } */
 
-/* .registration-page{
-   
-    
-}    */
+
 
 
 /* Welcome Message */
 #welcome{
   font-size: 30px;
   margin-bottom: 40px;
-  color:#45a049;
+  color:#9D6E33
 }
 
 
@@ -40,7 +37,7 @@ body {
   /* Form Container */
   #registration-form {
     background: #fff;
-    color: #333;
+    color: #9D6E33;
     padding: 20px 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -53,7 +50,7 @@ body {
   #registration-form h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: #4caf50;
+    /* color: #9D6E33; */
   }
   
   /* Input Fields */
@@ -75,7 +72,7 @@ body {
   
   /* Submit Button */
   #registration-form button {
-    background-color: #4caf50;
+    background-color: #9D6E33;
     color: #fff;
     border: none;
     padding: 10px 20px;
